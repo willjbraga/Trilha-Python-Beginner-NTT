@@ -1,0 +1,11 @@
+# Calculando o tempo total de projeto
+
+atividade_A = int(input("Informe os dias para a atividade A: "))
+atividade_B = int(input("Informe os dias para a atividade B: "))
+atividade_C = int(input("Informe os dias para a atividade C: "))
+
+if atividade_A > 0 and atividade_B > 0 and atividade_C > 0:
+    total_dias = atividade_A + atividade_B + atividade_C
+    print(f"\nO tempo total do projeto é de {total_dias} dias.")
+else:
+    print("\nErro: Os dias não podem ser negativos)")
